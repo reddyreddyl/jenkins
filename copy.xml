@@ -1,0 +1,13 @@
+<project name="javaproject" default="copywebfiles">
+
+<target name="copywebfiles">
+   
+   <copy todir="build/web">
+     <fileset dir="web">
+  
+  </fileset>
+  </copy>
+   
+   </target>
+   
+   </project>

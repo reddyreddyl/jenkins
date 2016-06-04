@@ -1,0 +1,12 @@
+<project name="javaproject" default="clean">
+
+<target name="clean">
+
+   <delete dir="build"/>
+   <delete dir="build/jar"/>
+   <delete dir="build/web"/>
+     
+  </target>
+  
+  </project>
+

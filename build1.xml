@@ -1,0 +1,30 @@
+
+<project name="firstproject" default="delete directory">
+	
+		<target name="delete directory">
+		
+		<delete dir="build/classes"/>
+		
+		<!--mkdir dir="build/classes"/-->
+		
+			</target>
+	<!--project name="firstproject" default="copydemo">
+	
+		<target name="copydemo">
+		
+		<copy file="abc.txt" tofile="cba.txt"/>
+		
+			</target-->
+			
+			<!--target name="target2" depends= "sample">
+		<echo> this is my second target </echo>
+		
+			</target>
+			
+				<target name="target3" depends= "target2">
+		<echo> this is my third target </echo>
+		
+			</target-->
+	
+	</project>
+		
